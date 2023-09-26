@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css typography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img class="image" src="imagens/Sem título.jpg">
+            <h1>Css Typography</h1>
+        </div>
+        <div class="shorts">
+            <ul>
+                <li><a href="#font-face">font-face</a></li>
+                <li><a href="#font">font</a></li>
+                <li><a href="#font-family">font-family</a></li>
+                <li><a href="#font-size">font-size</a></li>
+                <li><a href="#font-weight">font-weight</a></li>
+                <li><a href="#letter-spacing">letter-spacing</a></li>
+                <li><a href="#line-height">line-height</a></li>
+                <li><a href="#text-align">text-align</a></li>
+                <li><a href="#text-decoration">text-decoration</a></li>
+                <li><a href="#text-indent">text-indent</a></li>
+                <li><a href="#text-justify">text-justify</a></li>
+                <li><a href="#text-overflow">text-overflow</a></li>
+                <li><a href="#text-shadow">text-shadow</a></li>
+                <li><a href="#text-transform">text-transform</a></li>
+                <li><a href="#word-spacing">word-spacing</a></li>
+            </ul>
+        </div>
+        <div class="undertitle">
+            <p class="resume">Typography is the art of arranging text on a page. 
+            Some of the most important information a user will 
+            see on a web page will be textual. Styling text to 
+            make page content accessible and engaging can significantly 
+            improve user experience.</p>
+            <div class="board">
+                <p>Some of the things that typography can help with:</p>
+                <ul>
+                    <li>How to style and transform fonts</li>
+                    <li>How to lay text out on a page</li>
+                    <li>How to add external fonts to your pages</li>
+                </ul>    
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="head">
+                    <th><h2>Name</h2></th>
+                    <th><h2>Description</h2></th>
+                    <th><h2>Notes</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="font-face">              
+                    <td class="family">font-face</td>
+                    <td>Allows the use of custom fonts instead of just 
+                        using “web-safe” fonts.</td>           
+                    <td>The name of the file in which the font is stored, 
+                        must end in a supported font format
+                        (e.g. custom_font.woff2, custom_font.ttf).</td>
+                </tr>
+                <tr id="font">
+                    <td class="family">font</td>
+                    <td>property that sets different properties for an 
+                        elements font in a single declaration, such as
+                        "family", "size" and other optional such as "height",
+                        "weight", "stretch", "style", "varient". </td>
+                    <td>
+                        <ul>
+                            <li>font-style, font-variant, and font-weight 
+                            must come before font-size.</li>
+                            <li>line-height must be declared after font-size
+                            and only following a forward slash.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr id="font-family">
+                    <td class="family">font-family</td>
+                    <td>Specify the typeface in a rule set.</td>
+                    <td>If a font family name is not available, 
+                        browsers will display their default font. 
+                        When using a multi-word font name, wrap them 
+                        in quotes.</td>
+                </tr>
+                <tr id="font-size">
+                    <td class="family">font-size</td>
+                    <td>Sets text size. Font size values can be in 
+                        many different units like absolute lengths 
+                        and relative lengths.</td>
+                    <td>
+                        <div class="lists">
+                            <div class="list">
+                                <p>absolute lenghts:</p>
+                                <ul>
+                                    <li>px</li>  
+                                    <li>in</li>
+                                    <li>mm</li>
+                                    <li>cm</li>
+                                    <li>pt</li>
+                                    <li>pc</li>
+                                </ul>
+                            </div>
+                            <div class="list">
+                            <p>Relative lenghts:</p>
+                                <ul>
+                                    <li>%</li>  
+                                    <li>em</li>
+                                    <li>rem</li>
+                                    <li>ch</li>
+                                    <li>ex</li>
+                                    <li>vh...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="font-weight">
+                    <td class="family">font-weight</td>
+                    <td>To set the text to be thicker or thinner.</td>
+                    <td>"normal", "bolder", "bold", "initial", "inherit", 
+                        "lighter". Default value is <strong>400</strong></td>
+                </tr>
+                <tr id="letter-spacing">
+                    <td class="family">letter-spacing</td>
+                    <td>Set the horizontal spacing between the individual 
+                        characters in an element.</td>
+                    <td> "px" or "em"</td>
+                </tr>
+                <tr id="line-height">
+                    <td class="family">line-height</td>
+                    <td>Set the vertical spacing between lines of text.</td>
+                    <td> Do not accept negative value. "px", "rem", "em", "%"</td>
+                </tr>
+                <tr id="text-align">
+                    <td class="family">text-align</td>
+                    <td>To set the text alignment of inline contents.</td>
+                    <td>"left","center" or "right"</td>
+                </tr>
+                <tr id="text-decoration">
+                    <td class="family">text-decoration</td>
+                    <td>To add lines on the text.</td>
+                    <td>"none", "underline", "overline", "line-through"</td>
+                </tr>
+                <tr id="text-indent">
+                    <td class="family">text-indent</td>
+                    <td>The text-indent leaves empty space on the first line in a text-block.</td>
+                    <td>The amount of indentation can be specified by using percentages or length 
+                        values (px, em, etc.).</td>
+                </tr>
+                <tr id="text-justify">
+                    <td class="family">text-justify</td>
+                    <td>Sets the justifcation method of text when text-align: justify; is 
+                        applied to an element.</td>
+                    <td>Values: 
+                        <ul>
+                            <li>none</li>
+                            <li>inter-word: Adjusts the spacing between words.</li>
+                            <li>inter-character: Adjusts the spacing between characters.</li>
+                            <li>auto: Allows the browser to determine the justification method.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr id="text-overflow">
+                    <td class="family">text-overflow</td>
+                    <td>Specifies how hidden content is signaled to the user.</td>
+                    <td>The properties white-space: nowrap; and overflow: hidden; are required for 
+                        text-overflow to work.</td>
+                </tr>
+                <tr id="text-shadow">
+                    <td class="family">text-shadow</td>
+                    <td>Adds shadow to text.</td>
+                    <td>The shadow is created with a combination of x and y offsets from the element, 
+                        blur radius, and color</td>
+                </tr>
+                <tr id="text-transform">
+                    <td class="family">text-transform</td>
+                    <td>Specifies how to capitalize an element`s text.</td>
+                    <td>"none", "capitalize", "uppercase", "lowercase"</td>
+                </tr>
+                <tr id="word-spacing">
+                    <td class="family">word-spacing</td>
+                    <td>Set space between words.</td>
+                    <td>"px" or "em"</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

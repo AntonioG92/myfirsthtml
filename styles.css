@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+ font-size: 15px;
+}
+
+th{
+    background-color:#3790E1;
+    color: white;
+}
+
+td{ 
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+.family{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.list{
+    display:inline-block;  
+    padding:15px;
+}
+
+.lists{
+    text-align: center; 
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    position: fixed;
+    z-index:15;
+    width: 100%;
+}
+
+.image{
+    text-align: center;
+    font-size:50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300px; 
+    z-index:10;
+}
+
+.shorts ul li{
+    border: 1px solid blue;
+    top:300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 1px 5px;
+    line-height: 50px;
+    background-color: #55C2F1;
+}
+
+
+.shorts ul li:hover{
+    background: white;
+    color: black;
+}
+
+.shorts{
+    position:relative;
+    top: 300px;
+    text-align:center;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+
+.undertitle{
+    position:relative;
+    top:285px;
+    margin: 50px auto 10px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.resume{
+    text-align: justify;
+    line-height: 26px;
+}
+
+.board{
+    border: 1px solid red;
+    background-color: wheat;
+    padding: 10px 10px; 
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    position:relative;
+    max-width: 1200px;
+    
+}
+
+.container{
+    position:relative;
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+    top: 320px;
+    max-width: 1200px;
+    z-index:20;
+}
+
+h2{
+    font-size: 30px;
+    padding: 15px 15px;
+}
